@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Growth Hub — simple, practical digital marketing guides for beginners and growing businesses.">
+  <title>Digital Growth Hub | Digital Marketing Blog</title>
+  <style>
+    :root{--ink:#172033;--muted:#667085;--bg:#f7f8fc;--card:#fff;--accent:#635bff;--line:#e7e9f0}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1100px,92%);margin:auto}
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-size:1.25rem;font-weight:800}.logo span{color:var(--accent)}
+    .navlinks{display:flex;gap:24px;color:#475467;font-size:.95rem}
+    .navlinks a:hover{color:var(--accent)}
+    .hero{padding:85px 0 65px;background:#fff}
+    .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+    .tag{display:inline-block;background:#eeedff;color:#4b43d4;padding:7px 12px;border-radius:20px;font-size:.8rem;font-weight:700;margin-bottom:18px}
+    h1{font-size:clamp(2.3rem,5vw,4.2rem);line-height:1.08;letter-spacing:-2px;margin-bottom:20px}
+    .hero p{color:var(--muted);font-size:1.08rem;max-width:650px}
+    .btn{display:inline-block;margin-top:25px;background:var(--accent);color:white;padding:12px 20px;border-radius:8px;font-weight:700}
+    .hero-card{background:#f1f0ff;border:1px solid #dedcff;border-radius:18px;padding:28px}
+    .hero-card h3{margin-bottom:10px}.hero-card p{font-size:.95rem}
+    section{padding:65px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}
+    .section-head h2{font-size:2rem}.section-head p{color:var(--muted)}
+    .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .post{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.2s}
+    .post:hover{transform:translateY(-4px);box-shadow:0 12px 30px #17203312}
+    .post-img{height:155px;background:linear-gradient(135deg,#635bff,#9b96ff);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.5rem}
+    .post-body{padding:20px}.category{font-size:.75rem;color:var(--accent);font-weight:800;text-transform:uppercase}
+    .post h3{margin:7px 0 9px;font-size:1.15rem}.post p{color:var(--muted);font-size:.92rem}.date{display:block;color:#98a2b3;font-size:.78rem;margin-top:14px}
+    .categories{display:flex;flex-wrap:wrap;gap:12px}.category-pill{background:#fff;border:1px solid var(--line);padding:12px 18px;border-radius:30px;color:#475467}
+    .newsletter{background:#171c2b;color:#fff;border-radius:18px;padding:45px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+    .newsletter p{color:#c5cad5;margin-top:8px}.form{display:flex;gap:10px}.form input{flex:1;padding:13px;border-radius:8px;border:0}.form button{padding:13px 18px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-weight:700}
+    footer{background:#fff;border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}
+    @media(max-width:760px){.navlinks{display:none}.hero-grid,.newsletter{grid-template-columns:1fr}.posts{grid-template-columns:1fr}.hero{padding:60px 0 45px}.newsletter{padding:30px}.form{flex-direction:column}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#">Digital <span>Growth Hub</span></a>
+      <div class="navlinks">
+        <a href="#home">Home</a><a href="#posts">Blog</a><a href="#categories">Categories</a><a href="#about">About</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="tag">DIGITAL MARKETING BLOG</span>
+        <h1>Learn marketing. Build your brand. Grow online.</h1>
+        <p>Simple, practical digital marketing tips for beginners, creators and small businesses — without the complicated jargon.</p>
+        <a class="btn" href="#posts">Explore Articles →</a>
+      </div>
+      <div class="hero-card">
+        <h3>🚀 Start Here</h3>
+        <p>New to digital marketing? Start with SEO, social media, content marketing and analytics, then build your skills step by step.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="posts">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>Latest Articles</h2><p>Practical guides to help you grow.</p></div>
+      </div>
+      <div class="posts">
+        <article class="post"><div class="post-img">SEO</div><div class="post-body"><span class="category">SEO</span><h3>What Is SEO? A Beginner's Guide</h3><p>Understand how search engines work and how to make your website easier to discover.</p><span class="date">August 20, 2026 · 5 min read</span></div></article>
+        <article class="post"><div class="post-img">SOCIAL</div><div class="post-body"><span class="category">Social Media</span><h3>How to Grow Your Social Media Presence</h3><p>Learn the basics of creating useful content, choosing platforms and reaching the right audience.</p><span class="date">August 18, 2026 · 6 min read</span></div></article>
+        <article class="post"><div class="post-img">AI</div><div class="post-body"><span class="category">AI Marketing</span><h3>How AI Is Changing Digital Marketing</h3><p>Explore practical ways marketers can use AI for research, content, personalization and analysis.</p><span class="date">August 15, 2026 · 7 min read</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories">
+    <div class="container">
+      <div class="section-head"><div><h2>Explore Topics</h2><p>Choose a topic and start learning.</p></div></div>
+      <div class="categories">
+        <a class="category-pill" href="#">🔎 SEO</a><a class="category-pill" href="#">📱 Social Media</a><a class="category-pill" href="#">✍️ Content Marketing</a><a class="category-pill" href="#">📊 Analytics</a><a class="category-pill" href="#">🎯 Google Ads</a><a class="category-pill" href="#">🤖 AI Marketing</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="newsletter">
+        <div><h2>Get marketing tips in your inbox.</h2><p>Simple lessons, useful strategies and new articles.</p></div>
+        <form class="form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe</button></form>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head"><div><h2>About Digital Growth Hub</h2><p>A simple place to learn digital marketing one skill at a time.</p></div></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">© 2026 Digital Growth Hub · Learn. Apply. Grow.</div></footer>
+</body>
+</html>
